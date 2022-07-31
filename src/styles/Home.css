@@ -1,0 +1,73 @@
+.home{
+    max-width: 838px;
+}
+
+.verify_input{
+    height: 83px;
+    background: #090C12;
+    border: 2px solid #01B1FC;
+    border-radius: 20px;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 4px 16px rgb(0 0 0 / 20%);
+}
+/* color: #fff; */
+.verify_input::placeholder {
+    color: #ffffff66;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.home__container{
+    text-align: center;
+    padding-top: 160px;
+    max-width: 1130px;
+    padding-bottom: 217px;
+}
+
+@media (width <= 900px) {
+    .home__container{
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+}
+
+.continue__btn {
+    cursor: pointer;
+    padding: 25px 60px;
+    display: inline-block;
+    color: #01B1FC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(25 / 24 * 100%);
+    border: 2px solid #01B1FC;
+    border-radius: 5px;
+    -webkit-transition: color .3s linear, background .3s linear;
+    transition: color .3s linear, background .3s linear;
+}
+
+.continue__btn:hover {
+    color: #FFFFFF;
+    background: #01B1FC;
+}
+
+@media (width <= 768px) {
+    .verify_input::placeholder {
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+@media (width <= 450px) {
+    .verify_input::placeholder {
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+  
